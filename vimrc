@@ -1,5 +1,5 @@
 call pathogen#runtime_append_all_bundles()
-call pathogen#helptags
+call pathogen#helptags()
 
 set nu "включить нумерацию строк
 syntax on "включить подсветку синтаксиса
