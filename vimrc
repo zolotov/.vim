@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags
+
 set nu "включить нумерацию строк
 syntax on "включить подсветку синтаксиса
 colorscheme elflord "цветовая схема
@@ -30,3 +33,7 @@ set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&
 nmap <C-N> :tag 
 nmap <F5> :!ctags -R . <Return><Return>
 imap <F5> :!ctags -R . <Return><Return>
+
+if has("autocmd")
+  filetype plugin indent on
+endif
