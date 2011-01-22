@@ -1,6 +1,6 @@
 set nu "включить нумерацию строк
 syntax on "включить подсветку синтаксиса
-colorscheme elflord "цветовая схема
+colorscheme zellner "цветовая схема
 set autoindent " автоотступы
 set hidden "можно не сохранять при переходе между буферами
 set incsearch "поиск по мере набора 
