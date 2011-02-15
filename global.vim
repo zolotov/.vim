@@ -18,3 +18,7 @@ set showcmd
 
 " Включаем отображение дополнительной информации в статусной строке
 set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&encoding}\ %b\ 0x%B\ %l,%c%V\ %P
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4 

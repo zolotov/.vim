@@ -5,5 +5,6 @@ source ~/.vim/global.vim
 source ~/.vim/bindings.vim
 
 if has("autocmd")
-  filetype plugin indent on
+	autocmd bufwritepost *.vim source $MYVIMRC "перезагрузка vimrc настроек при сохранении *.vim-файлов
+	filetype plugin indent on
 endif
