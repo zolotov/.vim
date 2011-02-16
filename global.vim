@@ -21,11 +21,11 @@ set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&
 
 set tabstop=4
 set softtabstop=4
-set shiftwidth=4 
+set shiftwidth=4
 
 "Invisible character colors
 set list
-highlight NonText guifg=#4a4a59
-highlight SpecialKey guifg=#4a4a59
+	highlight NonText ctermfg=0 guifg=#4a4a59
+	highlight SpecialKey ctermfg=0 guifg=#4a4a59
 
 set listchars=tab:▸\ ,eol:¬
