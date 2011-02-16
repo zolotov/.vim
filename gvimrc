@@ -1,0 +1,1 @@
+colorscheme mac_classic

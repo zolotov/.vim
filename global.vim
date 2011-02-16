@@ -1,6 +1,6 @@
 set nu "включить нумерацию строк
 syntax on "включить подсветку синтаксиса
-colorscheme zellner "цветовая схема
+colorscheme elflord "цветовая схема
 set autoindent " автоотступы
 set hidden "можно не сохранять при переходе между буферами
 set incsearch "поиск по мере набора 
@@ -22,3 +22,10 @@ set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4 
+
+"Invisible character colors
+set list
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
+
+set listchars=tab:▸\ ,eol:¬
