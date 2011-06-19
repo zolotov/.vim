@@ -1,16 +1,17 @@
 set nu "включить нумерацию строк
 syntax on "включить подсветку синтаксиса
 colorscheme elflord "цветовая схема
-set autoindent " автоотступы
+
 set hidden "можно не сохранять при переходе между буферами
 set incsearch "поиск по мере набора 
+set smartcase "поиск учитывает регистр только если в запросе есть буквы, написанные в верхнем регистре
 set mouse=a "включить мышь во всех режимах (удобно вставлять из терминала без табов, разбитый на пробелы, а при включенной нумерации строк при выделении не выделяются номера, да и вообще удобная штука)
-set smartindent "умные отступы?
+set smartindent "автоматический отступ при добавлении скобок
 set wrap "включить перенос строк
 set linebreak "перенос строк по словам
 
 set wildmenu "удобное меню
-" Меню выбора кодировки текста (koi8-r, cp1251, cp866, utf8)
+set encoding=utf-8
 
 " Включаем отображение выполняемой в данный момент команды в правом нижнем углу экрана.
 " К примеру, если вы наберете 2d, то в правом нижнем углу экрана Vim отобразит строку 2d.
@@ -22,11 +23,16 @@ set statusline=%<%f%h%m%r%=format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set smarttab
+set expandtab
 
 "Invisible character colors
-set list
+
+if has("gui_running")
+	set list
 	highlight NonText ctermfg=0 guifg=#4a4a59
 	highlight SpecialKey ctermfg=0 guifg=#4a4a59
-set listchars=tab:▸\ ,eol:¬
+	set listchars=tab:▸\ ,eol:¬
+endif
 
 set foldmethod=indent
