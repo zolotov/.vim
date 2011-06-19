@@ -7,4 +7,8 @@ nmap <C-N> :tag
 nmap <F5> :!ctags -R . <Return><Return>
 
 nmap <leader>l :set list!<CR>
+
+noremap <A-j> gT
+noremap <A-k> gt
+
 nnoremap <space> za
