@@ -27,5 +27,6 @@ set shiftwidth=4
 set list
 	highlight NonText ctermfg=0 guifg=#4a4a59
 	highlight SpecialKey ctermfg=0 guifg=#4a4a59
-
 set listchars=tab:▸\ ,eol:¬
+
+set foldmethod=indent
