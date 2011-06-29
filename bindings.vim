@@ -12,3 +12,8 @@ noremap <A-j> gT
 noremap <A-k> gt
 
 nnoremap <space> za
+
+nmap <silent> j gj
+nmap <silent> k gk
+nmap <silent> <Down> g<Down>
+nmap <silent> <Up> g<Up>
