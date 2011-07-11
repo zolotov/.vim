@@ -38,13 +38,4 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
-"Invisible character colors
-
-if has("gui_running")
-	set list
-	highlight NonText ctermfg=0 guifg=#4a4a59
-	highlight SpecialKey ctermfg=0 guifg=#4a4a59
-	set listchars=tab:▸\ ,eol:¬
-endif
-
 set foldmethod=indent
