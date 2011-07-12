@@ -1,15 +1,17 @@
-colorscheme macvim
-set background=light    " Background.
-set guifont=Monaco:h20
+set guioptions-=r   " Don't show right scrollbar
+set guioptions-=T   "Hide toolbar
+set encoding=utf-8
 
 set list
 set listchars=tab:▸\ ,eol:¬
-highlight NonText guifg=#dddddd
-highlight SpecialKey guifg=#dddddd
 
-set antialias   " MacVim: smooth fonts.
-set encoding=utf-8
-set lines=30 columns=100    " Window dimensions.
-
-set guioptions-=r   " Don't show right scrollbar
-set guioptions-=T   "Hide toolbar
+if has("gui_macvim")
+	source ~/.vim/mvimrc
+else
+	set background=dark
+	colorscheme slate
+	set guifont=Droid\ Sans\ Mono
+	highlight NonText guifg=#333333
+	highlight SpecialKey guifg=#333333
+	set lines=55 columns=170    " Window dimensions.
+endif
