@@ -20,6 +20,12 @@ nmap <silent> <Up> g<Up>
 
 " Tab mapping
 map <leader>tt :tabnew<CR>
-map <leader>te :tabedit<CR>
+map <leader>te :tabedit
 map <leader>tc :tabclose<CR>
 map <leader>to :tabonly<CR>
+
+vmap > >gv
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+vmap < <gv>
+imap <S-Tab> <<
