@@ -1,1 +1,1 @@
-autocmd rooter BufEnter *.java,*.xml,*.groovy,*.php :Rooter
+autocmd rooter BufEnter *.vim,*.java,*.xml,*.groovy,*.php :Rooter
