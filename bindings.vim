@@ -17,3 +17,9 @@ nmap <silent> j gj
 nmap <silent> k gk
 nmap <silent> <Down> g<Down>
 nmap <silent> <Up> g<Up>
+
+" Tab mapping
+map <leader>tt :tabnew<CR>
+map <leader>te :tabedit<CR>
+map <leader>tc :tabclose<CR>
+map <leader>to :tabonly<CR>
