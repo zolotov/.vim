@@ -29,3 +29,4 @@ vmap <Tab> >gv
 vmap <S-Tab> <gv
 vmap < <gv>
 imap <S-Tab> <<
+imap <C-Space> <C-N>
