@@ -32,3 +32,6 @@ vmap <S-Tab> <gv
 vmap < <gv>
 imap <S-Tab> <<
 imap <C-Space> <C-N>
+
+"write as root
+cmap w!! w !sudo tee % >/dev/null
