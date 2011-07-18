@@ -1,3 +1,5 @@
+source ~/.vim/russian_bindings.vim
+
 nmap <C-h> <C-W>h
 nmap <C-j> <C-W>j
 nmap <C-k> <C-W>k
