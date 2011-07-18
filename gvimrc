@@ -9,7 +9,7 @@ if has("gui_macvim")
 	source ~/.vim/mvimrc
 else
 	set background=dark
-	colorscheme slate
+	colorscheme railscasts
 	set guifont=Droid\ Sans\ Mono
 	highlight NonText guifg=#333333
 	highlight SpecialKey guifg=#333333
