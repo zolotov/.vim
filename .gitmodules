@@ -34,3 +34,6 @@
 [submodule "bundle/textile"]
 	path = bundle/textile
 	url = https://github.com/vim-scripts/Textile-for-VIM.git
+[submodule "bundle/latex"]
+	path = bundle/latex
+	url = https://github.com/jcf/vim-latex.git
