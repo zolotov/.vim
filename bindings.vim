@@ -35,3 +35,6 @@ imap <C-Space> <C-N>
 
 "write as root
 cmap w!! w !sudo tee % >/dev/null
+
+"latex compile
+map <F2> :w<CR>:!latex -output-format=pdf %<CR><CR>
