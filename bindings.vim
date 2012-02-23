@@ -17,8 +17,6 @@ nnoremap <space> za
 
 nmap <silent> j gj
 nmap <silent> k gk
-nmap <silent> <Down> g<Down>
-nmap <silent> <Up> g<Up>
 
 " Tab mapping
 map <leader>tt :tabnew<CR>
@@ -38,3 +36,11 @@ cmap w!! w !sudo tee % >/dev/null
 
 "latex compile
 map <F2> :w<CR>:!latex -output-format=pdf %<CR><CR>
+
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+noremap <Home> <nop>
+noremap <End> <nop>
+inoremap jj <Esc>
