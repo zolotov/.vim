@@ -20,6 +20,7 @@ set linebreak "перенос строк по словам
 set backspace=indent,eol,start    " Intuitive backspacing.
 
 set wildmenu "удобное меню
+set wcm=<Tab>
 set wildmode=list:longest         " Complete files like a shell.
 
 set encoding=utf-8

@@ -44,3 +44,7 @@ noremap <Right> <nop>
 noremap <Home> <nop>
 noremap <End> <nop>
 inoremap jj <Esc>
+
+menu Encoding.windows-1251 :e ++enc=8bit-cp1251<CR> 
+menu Encoding.utf-8 :e ++enc=2byte-utf-8 <CR> 
+map <leader>e :emenu Encoding.<Tab>
