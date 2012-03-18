@@ -5,7 +5,7 @@ set ruler "позиция курсора
 syntax on "включить подсветку синтаксиса
 filetype plugin indent on
 
-colorscheme elflord "цветовая схема
+colorscheme wombat "цветовая схема
 
 set incsearch "поиск по мере набора 
 set hlsearch "подсветка совпадений
