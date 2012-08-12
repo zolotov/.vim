@@ -1,10 +1,10 @@
 colorscheme macvim
 set background=light    " Background.
-set guifont=Monaco:h20
+set guifont=Monaco:h16
 
 highlight NonText guifg=#dddddd
 highlight SpecialKey guifg=#dddddd
 
 set antialias   " MacVim: smooth fonts.
-set lines=30 columns=100    " Window dimensions.
+set lines=25 columns=80    " Window dimensions.
 
