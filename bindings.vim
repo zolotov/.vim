@@ -1,4 +1,5 @@
 source ~/.vim/russian_bindings.vim
+source ~/.vim/functions.vim
 
 nmap <C-h> <C-W>h
 nmap <C-j> <C-W>j
@@ -48,3 +49,12 @@ inoremap jj <Esc>
 menu Encoding.windows-1251 :e ++enc=8bit-cp1251<CR> 
 menu Encoding.utf-8 :e ++enc=2byte-utf-8 <CR> 
 map <leader>e :emenu Encoding.<Tab>
+
+"move line up/down
+nmap <S-M-Down> ddp
+nmap <S-M-Up> ddkP
+
+"duplicate line
+nmap <C-d> yyp
+
+nmap <leader>go :call OpenInBrowser()<CR>
