@@ -1,4 +1,5 @@
 set nocompatible
+set confirm
 
 set nu "включить нумерацию строк
 set ruler "позиция курсора
