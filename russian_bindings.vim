@@ -65,7 +65,6 @@ nmap т n
 nmap ь m
 nmap б ,
 nmap ю .
-nmap . /
 
 omap Й Q
 omap Ц W

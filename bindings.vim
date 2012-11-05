@@ -37,6 +37,7 @@ cmap w!! w !sudo tee % >/dev/null
 
 "latex compile
 map <F2> :w<CR>:!latex -output-format=pdf %<CR><CR>
+"prolog compile
 
 noremap <Up> <nop>
 noremap <Down> <nop>
