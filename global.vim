@@ -42,3 +42,5 @@ set smarttab
 set foldmethod=indent
 
 set scrolloff=3 "количество строк, оставляемых на текущем экране при скроллинге
+
+set laststatus=2
