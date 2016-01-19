@@ -40,3 +40,6 @@
 [submodule "bundle/wombat"]
 	path = bundle/wombat
 	url = https://github.com/vim-scripts/Wombat.git
+[submodule "bundle/lightline.vim"]
+	path = bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
