@@ -1,4 +1,4 @@
-colorscheme macvim
+colorscheme solarized
 set background=light    " Background.
 set guifont=Monaco:h12
 
