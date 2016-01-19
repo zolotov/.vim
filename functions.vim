@@ -21,8 +21,13 @@ function! OpenInBrowser()
 endfunction
 
 function! OpenUrlInBrowser(url)
-	let path="/Applications/Google Chrome.app"
-	silent exec "!open -a '".path."' '".a:url."'" | redraw! 
+	let s:uname = system("uname")
+	if s:uname == "Darwin\n"
+		let path="/Applications/Google Chrome.app"
+		silent exec "!open -a '".path."' '".a:url."'" | redraw! 
+	else
+		silent exec "!google-chrome '".a:url."'" | redraw! 
+	endif
 	echo "opened ".a:url
 endfunction
 
