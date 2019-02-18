@@ -1,6 +1,8 @@
 source ~/.vim/russian_bindings.vim
 source ~/.vim/functions.vim
 
+nnoremap <esc> :noh<CR><esc>
+
 nmap <C-h> <C-W>h
 nmap <C-j> <C-W>j
 nmap <C-k> <C-W>k
@@ -58,3 +60,4 @@ nmap <S-M-Up> ddkP
 nmap <C-d> yyp
 
 nmap <leader>go :call OpenInBrowser()<CR>
+map <leader>k :E<cr> "exporer mode
